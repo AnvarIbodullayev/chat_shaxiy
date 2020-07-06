@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	div(ng-controller="indexController")
+		.big_bro
+			.block
+				.circle
+					h5 Name
+			br
+			.input-group.mb-3
+				input.form-control(type='text', placeholder="Shu yerga yozing", aria-label="Shu yerga yozing", aria-describedby='button-addon2')
+				.input-group-append
+					button#button-addon2.btn.btn-outline-success(type='button') Button
